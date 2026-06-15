@@ -1,4 +1,4 @@
-# 🚀 Sendmux — Email Inbox API for AI agents
+# 🚀 Sendmux — Complete Email API Platform for AI Agents
 
 Sendmux is an email inbox API that lets AI agents send, receive, and route email from a single platform. One platform. Your providers. Your mailboxes. No glue code.
 
