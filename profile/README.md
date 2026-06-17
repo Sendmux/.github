@@ -35,4 +35,3 @@ Organisation defaults live in this repository and apply to Sendmux repositories 
 - Use the issue templates so maintainers receive the details needed to triage quickly.
 - Never paste API keys, passwords, tokens, webhook secrets, customer data, or private account details into GitHub.
 - Report vulnerabilities through the [security policy](https://github.com/Sendmux/.github/blob/main/SECURITY.md), not public issues.
-
