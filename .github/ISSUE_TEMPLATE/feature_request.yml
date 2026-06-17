@@ -1,0 +1,58 @@
+name: Feature request
+description: Suggest an improvement for a Sendmux product, SDK, CLI, MCP server, or docs surface.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Do not paste API keys, passwords, tokens, webhook secrets, customer data, or private account details.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Affected surface
+      options:
+        - App
+        - Docs
+        - Sending API
+        - Mailbox API
+        - Management API
+        - SDK
+        - CLI
+        - MCP
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What workflow or outcome is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: What should Sendmux add or change?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What workarounds or existing options have you tried?
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who would benefit, and how often would they use it?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and pull requests.
+          required: true
+        - label: I removed API keys, passwords, tokens, webhook secrets, customer data, and private account details.
+          required: true
+

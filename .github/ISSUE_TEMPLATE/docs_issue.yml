@@ -1,0 +1,51 @@
+name: Documentation issue
+description: Report incorrect, missing, confusing, or stale documentation.
+title: "[Docs]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for improving the docs. Do not paste API keys, passwords, tokens, webhook secrets, customer data, or private account details.
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+      description: Link to the affected docs page, README, or section.
+      placeholder: "https://docs.sendmux.ai/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Incorrect content
+        - Missing content
+        - Confusing content
+        - Broken link
+        - Typo or wording
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong, unclear, or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix
+      description: If you know the correct wording or source behaviour, include it here.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked the current page or README before opening this issue.
+          required: true
+        - label: I removed API keys, passwords, tokens, webhook secrets, customer data, and private account details.
+          required: true
+

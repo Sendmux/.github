@@ -1,0 +1,82 @@
+name: Bug report
+description: Report something that is not working as expected.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not paste API keys, passwords, tokens, webhook secrets, customer data, or private account details.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Affected surface
+      options:
+        - App
+        - Docs
+        - Sending API
+        - Mailbox API
+        - Management API
+        - SDK
+        - CLI
+        - MCP
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Package, command, or page
+      description: Include the package name, CLI command, MCP server, or docs URL if relevant.
+      placeholder: "Example: @sendmux/cli, sendmux-mcp, https://docs.sendmux.ai/..."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the problem in one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide the smallest reproduction you can share safely.
+      placeholder: |
+        1. Run ...
+        2. Open ...
+        3. See ...
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include versions and operating system details where relevant.
+      placeholder: "Example: package version, CLI version, browser, OS"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitised logs or screenshots
+      description: Remove secrets, customer data, private account details, and full production payloads before attaching anything.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and pull requests.
+          required: true
+        - label: I removed API keys, passwords, tokens, webhook secrets, customer data, and private account details.
+          required: true
+
