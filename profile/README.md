@@ -9,6 +9,7 @@ Sendmux is an email platform for sending, receiving, and automating product emai
 | Learn about Sendmux | [sendmux.ai](https://sendmux.ai) |
 | Use the product | [app.sendmux.ai](https://app.sendmux.ai) |
 | Read the docs | [docs.sendmux.ai](https://docs.sendmux.ai) |
+| Install the CLI | [Homebrew tap](https://github.com/Sendmux/homebrew-tap) (`brew install sendmux/tap/sendmux`) |
 | Use SDKs, CLI, or MCP | [Sendmux SDK monorepo](https://github.com/Sendmux/sendmux-sdk) |
 | Report a docs issue | [Sendmux docs issues](https://github.com/Sendmux/sendmux-docs/issues) |
 | Get support | [Support policy](https://github.com/Sendmux/.github/blob/main/SUPPORT.md) |
@@ -23,7 +24,7 @@ Sendmux is an email platform for sending, receiving, and automating product emai
 | Go SDK | [`sendmux.ai/go`](https://pkg.go.dev/sendmux.ai/go) |
 | PHP SDK | [`sendmux/sdk`](https://packagist.org/packages/sendmux/sdk) |
 | Ruby SDK | [`sendmux-sdk`](https://rubygems.org/gems/sendmux-sdk) |
-| CLI | [`@sendmux/cli`](https://www.npmjs.com/package/@sendmux/cli) |
+| CLI | [Homebrew](https://github.com/Sendmux/homebrew-tap) or [`@sendmux/cli`](https://www.npmjs.com/package/@sendmux/cli) |
 | MCP servers | [`sendmux-mcp`](https://pypi.org/project/sendmux-mcp/) |
 
 The SDK monorepo also contains surface packages for sending, mailbox, and management workflows where those packages are published separately.
