@@ -8,7 +8,7 @@ Sendmux is an email platform for sending, receiving, and automating product emai
 | --- | --- |
 | Learn about Sendmux | [sendmux.ai](https://sendmux.ai) |
 | Use the product | [app.sendmux.ai](https://app.sendmux.ai) |
-| Read the docs | [docs.sendmux.ai](https://docs.sendmux.ai) |
+| Read the docs | [sendmux.ai/docs](https://sendmux.ai/docs) |
 | Install the CLI | [Homebrew tap](https://github.com/Sendmux/homebrew-tap) (`brew install sendmux/tap/sendmux`) |
 | Use SDKs, CLI, or MCP | [Sendmux SDK monorepo](https://github.com/Sendmux/sendmux-sdk) |
 | Report a docs issue | [Sendmux docs issues](https://github.com/Sendmux/sendmux-docs/issues) |

@@ -11,7 +11,7 @@ body:
     attributes:
       label: Page or section
       description: Link to the affected docs page, README, or section.
-      placeholder: "https://docs.sendmux.ai/..."
+      placeholder: "https://sendmux.ai/docs/..."
     validations:
       required: true
   - type: dropdown

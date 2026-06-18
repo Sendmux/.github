@@ -27,7 +27,7 @@ body:
     attributes:
       label: Package, command, or page
       description: Include the package name, CLI command, MCP server, or docs URL if relevant.
-      placeholder: "Example: @sendmux/cli, sendmux-mcp, https://docs.sendmux.ai/..."
+      placeholder: "Example: @sendmux/cli, sendmux-mcp, https://sendmux.ai/docs/..."
   - type: textarea
     id: summary
     attributes:

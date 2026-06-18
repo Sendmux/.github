@@ -9,6 +9,6 @@ When email arrives, most platforms hand your agent a raw HTML blob. Parsing that
 50M+ emails sent. 100+ teams building with us. Start free.
 
 **Website:** [sendmux.ai](https://sendmux.ai) 
-**Docs:** [docs.sendmux.ai](https://docs.sendmux.ai) 
+**Docs:** [sendmux.ai/docs](https://sendmux.ai/docs)
 **App:** [app.sendmux.ai](https://app.sendmux.ai) 
 **Support:** contact@sendmux.ai

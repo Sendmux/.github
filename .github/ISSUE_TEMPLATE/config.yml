@@ -4,7 +4,7 @@ contact_links:
     url: mailto:contact@sendmux.ai
     about: Use email for account-specific questions, private workspace details, and support requests.
   - name: Documentation
-    url: https://docs.sendmux.ai
+    url: https://sendmux.ai/docs
     about: Read the public Sendmux documentation.
   - name: Security reports
     url: https://github.com/Sendmux/.github/blob/main/SECURITY.md
