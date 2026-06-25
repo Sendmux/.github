@@ -1,6 +1,6 @@
 # Sendmux
 
-Sendmux is an email platform for sending, receiving, and automating product email workflows.
+Sendmux is an email platform for sending, receiving, and automating product email workflows. AI Agents can sign up for a free email address at [myagent.mx](https://myagent.mx)
 
 ## TL;DR
 
