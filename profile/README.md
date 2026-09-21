@@ -23,7 +23,7 @@ Sendmux is an email API for AI agents and developers. Create programmable inboxe
 | --- | --- |
 | TypeScript | [`@sendmux/sdk`](https://www.npmjs.com/package/@sendmux/sdk) |
 | Python | [`sendmux-sdk`](https://pypi.org/project/sendmux-sdk/) |
-| Go | [`sendmux.ai/go/v2`](https://pkg.go.dev/sendmux.ai/go/v2) |
+| Go | [`sendmux.ai/go/v3`](https://pkg.go.dev/sendmux.ai/go/v3) |
 | Rust | [`sendmux`](https://crates.io/crates/sendmux) (`cargo add sendmux`) |
 | PHP | [`sendmux/sdk`](https://packagist.org/packages/sendmux/sdk) |
 | Ruby | [`sendmux-sdk`](https://rubygems.org/gems/sendmux-sdk) |
