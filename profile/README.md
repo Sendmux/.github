@@ -12,6 +12,7 @@ Sendmux is an email API for AI agents and developers. Create programmable inboxe
 | Learn about Sendmux | [sendmux.ai](https://sendmux.ai) |
 | Use the product | [app.sendmux.ai](https://app.sendmux.ai) |
 | Read the docs | [sendmux.ai/docs](https://sendmux.ai/docs) |
+| Manage API keys | [API keys guide](https://sendmux.ai/docs/account/api-keys) |
 | Install the CLI | [Homebrew tap](https://github.com/Sendmux/homebrew-tap) (`brew install sendmux/tap/sendmux`) |
 | Browse all SDKs and tools | [Sendmux SDK monorepo](https://github.com/Sendmux/sendmux-sdk) |
 | Get support | [Support policy](https://github.com/Sendmux/.github/blob/main/SUPPORT.md) |
